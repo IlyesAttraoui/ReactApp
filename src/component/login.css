@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+body {
+  font-family: sans-serif;
+
+    
+}
+
+
+.forme{
+  background-color: white;
+  display: flex;
+  width: 650px;
+
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  left : 50%;
+  transform: translate(-50%,-50%);
+
+
+   border-radius: 10px;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 2em;
+  color:rgb(115, 115, 115);
+}
+.inputwithicone input {
+  width: 80%;
+  display: block;
+  padding: 10px;
+  color: rgb(13, 13, 13);
+  outline: none;
+  margin: 1em ,1;
+ border: 2px solid #aaa;
+  border-radius: 4px;
+  transition: .3s;
+  padding-left: 40px;
+  margin-left: 28px;
+
+
+}
+
+
+.inputwithicone {
+  position: relative;
+  margin-bottom: 0.8em;
+}
+.inputwithicone i{
+  position: absolute;
+  left: 0;
+  top:0px;
+  padding: 9px 8px ;
+  color: #aaa;
+  margin-left: 28px;
+}
+.inputwithicon input {
+  width: 80%;
+  display: block;
+  padding: 10px;
+  color: rgb(13, 13, 13);
+  outline: none;
+  margin: 1em ,1;
+ border: 2px solid #aaa;
+  border-radius: 4px;
+  transition: .3s;
+  padding-left: 40px;
+  margin-left: 28px;
+
+
+}
+
+
+.inputwithicon {
+  position: relative;
+  margin-bottom: 2em;
+}
+.inputwithicon i{
+  position: absolute;
+  left: 0;
+  top:0px;
+  padding: 9px 8px ;
+  color: #aaa;
+  margin-left: 28px;
+}
+
+.control input[type="submit"]{
+  display: block;
+  border:none;
+  padding: 10px;
+  color: green;
+  outline: none;
+    width: 80%;
+   background-color: rgb(0, 204, 255);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  opacity: .8;
+  transition: opacity .3s ease ;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: 28px
+
+
+}
+.iconn i{
+
+width: 200px;
+  font-size:150px;
+  padding-top: 100px;
+  text-align: center;
+
+}
+.iconn{
+width: 200px;
+background-color: rgb(0, 204, 255);
+border-radius: 10px;
+color:#fff
+}
+
+
+.right form{
+  width: 330px;
+margin-left: 5em;
+margin-top: 3em;
+margin-right: 5em;
+margin-bottom: 3em;
+
+}

@@ -1,0 +1,34 @@
+.hede h3{
+
+  margin-bottom: 10;
+  font-family: sans-serif;
+
+  color:#666666;
+}
+.hede{
+
+  margin-left: 250px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content:space-between;
+
+  margin-right: 80px;
+
+}
+.tableDrg{
+  margin-top: 50px;
+  width: 1000px;
+}
+.drg hr{
+  margin-left: 250px;
+  margin-right: 80px;
+}
+.left-dr{
+  margin-left: 270px;
+}
+
+
+.alldrg {
+  display: flex;
+}

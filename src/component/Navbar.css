@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.sidebar{
+  height: 100%;
+  width:170px;
+  background-color: rgb(0, 204, 255);
+  position: fixed;
+  padding: 30px 0px ;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 26px;
+
+
+}
+.heder{
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.heder i{
+  font-size: 35px;
+  color: #fff;
+  padding-left: 10px
+}
+.navLinks li {
+  list-style: none;
+
+
+
+}
+.navLinks li p {
+  display: block;
+  color: #fff;
+ height: 100px;
+ list-style: none;
+ width: 100%;
+padding-top: 30px;
+margin-left: 0px;
+text-align: centre;
+cursor: pointer;
+text-decoration: none;
+
+}
+
+.navLinks{
+  text-align : center;
+}
+
+.lien :hover{
+  background-color: #008fb3;
+
+
+}
+.navLinks i{
+  font-size: 25px;
+}
+.logout{
+  padding-top: 80px;
+}
+.logout :hover {
+    background-color: #008fb3;
+
+
+}
+.navLinks Link{
+  text-decoration: none;
+}

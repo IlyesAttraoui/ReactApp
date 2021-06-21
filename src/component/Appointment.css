@@ -1,0 +1,128 @@
+body{
+  background-color: rgb(230, 230, 230);
+
+
+}
+
+.hederAppoin h3{
+
+  margin-left: 250px;
+  color:#666666;
+
+  font-family: sans-serif;
+  display: flex;
+
+
+}
+.icondeletApp{
+  color: red;
+  cursor: pointer;
+ padding-left: 0px;
+
+
+}
+
+
+.appointhr hr{
+  margin-left: 250px;
+  margin-right: 80px;
+}
+.searchDate{
+
+
+border: none;
+background-color: rgb(0, 204, 255);
+border-radius: 6px;
+cursor: pointer;
+padding-left: 20px;
+padding-right: 20px;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+
+
+}
+.hederAppoin{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content:space-between;
+  margin-right: 80px;
+
+}
+.Appoint{
+display: flex;
+height: 50px;
+width: 300px;
+background-color: white;
+border-radius: 8px;
+border: 1px solid;
+}
+.hederAppoin input{
+  margin-right: 10px;
+
+
+}
+.tableApp{
+  margin-left: 250px;
+  width: 600px;
+margin-top: 70px;
+border: none;
+}
+
+.tableHeader{
+  background:rgb(0, 204, 255);
+  border: none;
+}
+.titlehederapp{
+  display:flex;
+  color: white;
+}
+
+.add{
+  margin-left: 200px;
+  margin-top: 50px;
+
+
+
+}
+.timee{
+  padding-right: 100px;
+  margin-left: 0px;
+  width: 209px;
+  height: 35px
+}
+.add button{
+margin-top:  20px;
+width: 209px;
+height: 35px;
+color:white;
+background: rgb(0, 204, 255);
+border-radius: 7px;
+border: none;
+}
+.add input{
+  padding: 4px;
+    color: rgb(13, 13, 13);
+    outline: none;
+   border: 2px solid #aaa;
+    border-radius: 8px;
+    transition: .3s;
+   margin-top: 20px;
+
+}
+.all{
+  display: flex;
+}
+.col2{
+  padding-left: 30px;
+  border: none;
+}
+.icondeletApp{
+
+}
+.icon{
+  display: flex;
+  justify-content:space-around;
+
+}
